@@ -1,0 +1,49 @@
+/*
+  cores 
+  Roxa: #7d35fc
+  branco: #e6e6e6
+  preto: #262624
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Urbanist", 'sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #262624;
+    color: #e6e6e6;
+}
+
+
+.social-media{
+    background-color:  #e6e6e6;
+    padding: 20px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.social-media:hover{
+    background-color:  #7d35fc;
+    transition: 800ms;
+}
+
+.name{
+    color: #7d35fc;
+    font-size: 32px;
+    font-weight: bold;
+}
+.navbar_black{
+    background-color: black ;
+}
+
+.dev{
+    margin-bottom: -10px;
+}
+
+.active{
+    border-bottom: 1px #7d35fc solid;
+}

@@ -1,0 +1,8 @@
+d-none d-lg-block - Classes para tirar conjutos de codigos quando o usuario estiver 
+em celular.
+
+fazer na home retirar uma tudo e deixar apenas o texto quando estiver no mobile
+
+<!-- <div class="d-block d-md-none">
+            <h1>teste</h1>
+        </div> -->
