@@ -2,7 +2,7 @@
   cores 
   Roxa: #7d35fc
   branco: #e6e6e6
-  preto: #262624
+  preto: #111111
 */
 
 
@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: #262624;
+    background-color: #111111;
     color: #e6e6e6;
 }
 
@@ -32,7 +32,14 @@ body{
 }
 
 .name{
-    color: #7d35fc;
+    background-image: linear-gradient(to right, #7d35fc, steelblue, #35fc7d);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+    color: transparent;
     font-size: 32px;
     font-weight: bold;
 }
@@ -46,4 +53,36 @@ body{
 
 .active{
     border-bottom: 1px #7d35fc solid;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 36px;
+
+    color: #7d35fc;
+}
+
+.enfeita{
+    background-image: linear-gradient(to right, #7d35fc, #35fc7d);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}
+
+.text-sobre{
+    font-size: 18px;
+}
+
+.btn-more{
+    border: 2px #7d35fc solid;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+
+.btn-more:hover{
+    background-color: #7d35fc;
+    transition: 300ms;
 }
