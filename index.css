@@ -5,6 +5,9 @@
   preto: #111111
 */
 
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     padding: 0;
@@ -85,4 +88,37 @@ body{
 .btn-more:hover{
     background-color: #7d35fc;
     transition: 300ms;
+}
+
+.icons{
+    box-shadow: 2px 2px 50px #e6e6e6;
+}
+
+.skill-content{
+    grid-template-columns: repeat(5, max-content) ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 1.5rem;
+
+}
+
+.skill-img{
+    width: 100px;
+    transition: transform .4s;
+    margin-left: 25px;
+    padding: 20px;
+}
+
+.skill-img:hover{
+    transform: translateY(-.5rem);
+}
+
+.tec-img{
+    width: 45px;
+}
+
+.bg-card{
+    background-color: #17171a;
+    border: #17171a solid 1px;
+    color: #e6e6e6;
 }
