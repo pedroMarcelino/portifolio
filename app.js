@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 document.addEventListener('click', function(event) {
     // Verificar se o elemento clicado é um <a> ou um <li> dentro da navbar
-    if (event.target.matches('.nav-link') || event.target.closest('.nav-item')) {
+    if (event.target.matches('.link-nav') || event.target.closest('.nav-item')) {
         // Remover a classe 'clicked' de todos os elementos que a possuem
         document.querySelectorAll('.active').forEach(function(element) {
             element.classList.remove('active');

@@ -33,20 +33,23 @@
             <div class="collapse navbar-collapse px-5" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link link-nav active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
+                        <a class="nav-link link-nav" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
+                        <a class="nav-link link-nav" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./images/Cv pedro cv.pdf" download><img class="icon-btn" src="./images/icons/documento.png" alt=""></i>Currículo</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid mt-5" id="home">
+    <div class="container-fluid " id="home">
         <div class="row align-items-center bg-black p-5">
             <div class="col-md-2 d-none d-md-block"></div>
             <div class="col-12 col-md-4 text-center text-md-center">
@@ -55,18 +58,18 @@
                 <h1 class="fs-1">Olá, eu sou Pedro Henrique &#128075;</h1>
                 <div class="d-flex justify-content-center justify-content-md-center mt-3">
                     <div class="social-media mx-2">
-                        <a href=""><img src="./images/githubBlack.svg" alt="GitHub"/></a>
+                        <a href="https://github.com/pedroMarcelino" target="_blank"><img src="./images/logos/github.png" alt="GitHub"/></a>
                     </div>
                     <div class="social-media mx-2">
-                        <a href=""><img src="./images/linkedinBlack.svg" alt="LinkedIn"/></a>
+                        <a href="https://www.linkedin.com/in/pedro-henrique-marcelino-nascimento-16a398175/" target="_blank"><img src="./images/logos/linkedin.png" alt="LinkedIn"/></a>
                     </div>
                     <div class="social-media mx-2">
-                        <a href="youtube.com"><img src="./images/linkedinBlack.svg" alt="LinkedIn"/></a>
+                        <a href="https://wa.me/13988473042" target="_blank"><img src="./images/logos/whatsapp.png" alt="Whatsapp"/></a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-4 text-center">
-                <img src="./images/pedro8edit.JPG" class="img-fluid img-pedro" alt="">
+                <img src="./images/img-pedro/pedropng.png" class="img-fluid img-pedro" alt="">
             </div>
             <div class="col-md-2 d-none d-md-block"></div>
         </div>
@@ -98,12 +101,12 @@
                     <p class="mx-5 ">
                         Tive a oportunidade de atuar em uma empresa americana como dev. full-stack,
                         minhas tasks eram a criação de novas funções e concertar alguns bugs, <span class="enfeita">tive a oportunidade 
-                        de aprender muito</span>, tanto em questão de <img width="16px" src="images/ramificacao-do-codigo (1).png" alt=""> código quanto em convivio com outros colaboradores 
+                        de aprender muito</span>, tanto em questão de <img width="16px" class="icon-btn" src="images/icons/ramificacao-do-codigo (1).png" alt=""> código quanto em convivio com outros colaboradores 
                         e rotinas do mundo dev.
                     </p>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="./images/pedro67.png" class="img-fluid" alt="">
+                    <img src="./images/img-pedro/pedro67.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -164,7 +167,10 @@
                         <img src="./images/logos/new-php-logo.svg" alt="PHP" class="skill-img" data-bs-toggle="tooltip" data-bs-placement="top" title="PHP">
                     </div>
                     <div class="p-2">
-                        <img src="./images/github.svg" alt="GitHUb" class="skill-img" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+                        <img src="./images/logos/github.svg" alt="GitHUb" class="skill-img" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+                    </div>
+                    <div class="p-2">
+                        <img src="./images/logos/firebase-1.svg" alt="FireBase" class="skill-img" data-bs-toggle="tooltip" data-bs-placement="top" title="Firebase">
                     </div>
                 </div>
             </div>
@@ -177,6 +183,97 @@
                         <div class="card h-100 rounded-3 bg-card">
                             <div class="row g-0">
                                 <div class="col-md-12">
+                                    <img src="./images/projetos/primeflix.png" class="w-100 img-fluid p-1 rounded-4" alt="Foto 1">
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                        <div class="text-center mb-3">
+                                            <img src="./images/logos/html-1.svg" alt="HTML5" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
+                                            <img src="./images/logos/css-3.svg" alt="CSS3" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
+                                            <img src="./images/logos/react-2.svg" alt="ReactJs" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="ReactJs">
+                                            <img src="./images/logos/javascript-1.svg" alt="JavaScript" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript">
+                                        </div>
+                                        <h3 class="card-title text-center">Prime Flix</h3>
+                                        <p class="card-text">Um projeto em ReactJs, onde consumimos a API do TMDB exibimos e favoritamos </p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="https://prime-flix-lac.vercel.app/" target="_blank" ><button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button></a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="https://github.com/pedroMarcelino/primeFlix" target="_blank"><button class="btn btn-more w-100" type="button"><img width="16px" class="icon-btn" src="images/icons/ramificacao-do-codigo (1).png" alt=""> Código</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 rounded-3 bg-card">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <img src="./images/projetos/buscaDinamica.png" class="w-100 img-fluid p-1 rounded-4" alt="Foto 1">
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                        <div class="text-center mb-3">
+                                            <img src="./images/logos/html-1.svg" alt="HTML5" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
+                                            <img src="./images/logos/css-3.svg" alt="CSS3" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
+                                            <img src="./images/logos/jquery-4.svg" alt="Jquery" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Jquery">
+                                        </div>
+                                        <h3 class="card-title text-center">Busca Dinamica</h3>
+                                        <p class="card-text">Projeto realizado para um advogado que dejesava fazer uma busca por várias palavras no mesmo texto.</p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="https://busca-dinamica.vercel.app/" target="_blank" ><button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button></a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="https://github.com/pedroMarcelino/busca-dinamica" target="_blank"><button class="btn btn-more w-100" type="button"><img width="16px" class="icon-btn" src="images/icons/ramificacao-do-codigo (1).png" alt=""> Código</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 rounded-3 bg-card">
+                            <div class="row g-0">
+                                <div class="col-md-12">
+                                    <img src="./images/projetos/ToDo.png" class="w-100 img-fluid p-1 rounded-4" alt="Foto 1">
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                        <div class="text-center mb-3">
+                                            <img src="./images/logos/html-1.svg" alt="HTML5" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
+                                            <img src="./images/logos/css-3.svg" alt="CSS3" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
+                                            <img src="./images/logos/react-2.svg" alt="ReactJs" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="ReactJs">
+                                            <img src="./images/logos/javascript-1.svg" alt="JavaScript" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript">
+                                            <img src="./images/logos/firebase-1.svg" alt="FireBase" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="FireBase">
+                                        </div>
+                                        <p class="text-danger text-center">EM ANDAMENTO</p>
+                                        <h5 class="card-title">Lista de Tarefas</h5>
+                                        <p class="card-text">Lista de tarefa feita com ReactJs e autenticação com conexão via FireBase. </p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="https://login-app-react-firebase.vercel.app/" target="_blank"><button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button></a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="https://github.com/pedroMarcelino/Login-App-React-Firebase" target="_blank"><button class="btn btn-more w-100" type="button"><img width="16px" class="icon-btn" src="images/icons/ramificacao-do-codigo (1).png" alt=""> Código</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-4 mb-5">
+                        <div class="card h-100 rounded-3 bg-card">
+                            <div class="row g-0">
+                                <div class="col-md-12">
                                     <img src="./images/image.png" class="w-100 img-fluid p-1 rounded-start" alt="Foto 1">
                                 </div>
                                 <div class="col-md-12">
@@ -195,7 +292,7 @@
                                                 <button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button>
                                             </div>
                                             <div class="col">
-                                                <button class="btn btn-more w-100" type="button"><img width="16px" src="images/ramificacao-do-codigo (1).png" alt=""> Código</button>
+                                                <button class="btn btn-more w-100" type="button"><img width="16px" class="icon-btn" src="images/icons/ramificacao-do-codigo (1).png" alt=""> Código</button>
                                             </div>
                                         </div>
                                     </div>
@@ -226,7 +323,7 @@
                                                 <button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button>
                                             </div>
                                             <div class="col">
-                                                <button class="btn btn-more w-100" type="button"><img width="16px" src="images/ramificacao-do-codigo (1).png" alt=""> Código</button>
+                                                <button class="btn btn-more w-100" type="button"><img width="16px" class="icon-btn" src="images/icons/ramificacao-do-codigo (1).png" alt=""> Código</button>
                                             </div>
                                         </div>
                                     </div>
@@ -257,107 +354,14 @@
                                                 <button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button>
                                             </div>
                                             <div class="col">
-                                                <button class="btn btn-more w-100" type="button"><img width="16px" src="images/ramificacao-do-codigo (1).png" alt=""> Código</button>
+                                                <button class="btn btn-more w-100" type="button"><img width="16px" class="icon-btn" src="images/icons/ramificacao-do-codigo (1).png" alt=""> Código</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 rounded-3 bg-card">
-                            <div class="row g-0">
-                                <div class="col-md-12">
-                                    <img src="./images/image.png" class="w-100 img-fluid p-1 rounded-start" alt="Foto 1">
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="card-body">
-                                        <div class="text-center mb-3">
-                                            <img src="./images/logos/html-1.svg" alt="HTML5" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
-                                            <img src="./images/logos/css-3.svg" alt="CSS3" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
-                                            <img src="./images/logos/new-php-logo.svg" alt="PHP" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="PHP">
-                                            <img src="./images/logos/jquery-4.svg" alt="Jquery" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Jquery">
-                                            <img src="./images/logos/mysql-3.svg" alt="MySQl" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="MySQl">
-                                        </div>
-                                        <h5 class="card-title">Título do Card 1</h5>
-                                        <p class="card-text">Descrição breve do card 1.</p>
-                                        <div class="row">
-                                            <div class="col">
-                                                <button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button>
-                                            </div>
-                                            <div class="col">
-                                                <button class="btn btn-more w-100" type="button"><img width="16px" src="images/ramificacao-do-codigo (1).png" alt=""> Código</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 rounded-3 bg-card">
-                            <div class="row g-0">
-                                <div class="col-md-12">
-                                    <img src="./images/image.png" class="w-100 img-fluid p-1 rounded-start" alt="Foto 1">
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="card-body">
-                                        <div class="text-center mb-3">
-                                            <img src="./images/logos/html-1.svg" alt="HTML5" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
-                                            <img src="./images/logos/css-3.svg" alt="CSS3" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
-                                            <img src="./images/logos/new-php-logo.svg" alt="PHP" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="PHP">
-                                            <img src="./images/logos/jquery-4.svg" alt="Jquery" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Jquery">
-                                            <img src="./images/logos/mysql-3.svg" alt="MySQl" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="MySQl">
-                                        </div>
-                                        <h5 class="card-title">Título do Card 1</h5>
-                                        <p class="card-text">Descrição breve do card 1.</p>
-                                        <div class="row">
-                                            <div class="col">
-                                                <button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button>
-                                            </div>
-                                            <div class="col">
-                                                <button class="btn btn-more w-100" type="button"><img width="16px" src="images/ramificacao-do-codigo (1).png" alt=""> Código</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 rounded-3 bg-card">
-                            <div class="row g-0">
-                                <div class="col-md-12">
-                                    <img src="./images/image.png" class="w-100 img-fluid p-1 rounded-start" alt="Foto 1">
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="card-body">
-                                        <div class="text-center mb-3">
-                                            <img src="./images/logos/html-1.svg" alt="HTML5" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
-                                            <img src="./images/logos/css-3.svg" alt="CSS3" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
-                                            <img src="./images/logos/new-php-logo.svg" alt="PHP" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="PHP">
-                                            <img src="./images/logos/jquery-4.svg" alt="Jquery" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Jquery">
-                                            <img src="./images/logos/mysql-3.svg" alt="MySQl" class="tec-img p-1" data-bs-toggle="tooltip" data-bs-placement="top" title="MySQl">
-                                        </div>
-                                        <h5 class="card-title">Título do Card 1</h5>
-                                        <p class="card-text">Descrição breve do card 1.</p>
-                                        <div class="row">
-                                            <div class="col">
-                                                <button class="btn btn-more w-100" type="button"> <i class="fi fi-br-link-alt"></i>  Acessar</button>
-                                            </div>
-                                            <div class="col">
-                                                <button class="btn btn-more w-100" type="button"><img width="16px" src="images/ramificacao-do-codigo (1).png" alt=""> Código</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>

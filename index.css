@@ -21,16 +21,24 @@ body{
     color: #e6e6e6;
 }
 
+a{
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.img-pedro{
+    width: 70%;
+}
 
 .social-media{
     background-color:  #e6e6e6;
-    padding: 20px;
-    border-radius: 32px;
+    padding: 15px;
+    border-radius: 50px;
     cursor: pointer;
 }
 
 .social-media:hover{
-    background-color:  #7d35fc;
+    background-color:  #945bf7;
     transition: 800ms;
 }
 
@@ -92,6 +100,10 @@ body{
 
 .icons{
     box-shadow: 2px 2px 50px #e6e6e6;
+}
+
+.icon-btn{
+    margin-right: 5px;
 }
 
 .skill-content{
